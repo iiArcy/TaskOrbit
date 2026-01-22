@@ -8,7 +8,9 @@
       "Bash(timeout 15s npm run dev:*)",
       "Bash(npm run build:*)",
       "Bash(npm run lint)",
-      "Bash(npm run lint:*)"
+      "Bash(npm run lint:*)",
+      "Bash(git checkout:*)",
+      "Bash(timeout 10 npm run dev:*)"
     ]
   }
 }
