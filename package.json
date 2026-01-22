@@ -1,6 +1,13 @@
 {
   "name": "task-orbit",
   "version": "0.1.0",
+  "description": "A Trello-inspired task management application built with Next.js and Supabase",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiArcy/TaskOrbit.git"
+  },
+  "author": "iiArcy",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
