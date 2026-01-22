@@ -1,6 +1,6 @@
 # Task Orbit
 
-A Trello-inspired task management application built with Next.js, Supabase, and Tailwind CSS. This project allows users to organize work using boards, lists, and cards with smooth drag-and-drop functionality.
+Task management application built with Next.js, Supabase, and Tailwind CSS. This project allows users to organize work using boards, lists, and cards with smooth drag-and-drop functionality.
 
 ## Features
 
@@ -20,7 +20,7 @@ A Trello-inspired task management application built with Next.js, Supabase, and 
 - **State Management**: Zustand
 - **Drag & Drop**: dnd-kit
 
-## Getting Started
+## Getting Started 
 
 1. **Clone the repository**
    ```bash
@@ -34,12 +34,19 @@ A Trello-inspired task management application built with Next.js, Supabase, and 
    ```
 
 3. **Environment Setup**
-   Copy the example environment file and update it with your Supabase credentials:
-   ```bash
-   cp .env.example .env
+   for the Supabase. Create a `.env` file in the root directory and paste them there:
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
+   *Note: Never commit your `.env` file.*
 
-4. **Run the development server**
+4. **Workflow**
+   - Create a new branch for your task: `git checkout -b feature/your-feature-name`
+   - Push your branch: `git push -u origin feature/your-feature-name`
+   - Open a Pull Request on GitHub for review.
+
+5. **Run the development server**
    ```bash
    npm run dev
    ```
