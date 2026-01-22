@@ -2,7 +2,7 @@
 
 ## Overview
 
-Building a Trello-inspired task management app from scratch. The project currently only contains `prd.md` - no code exists yet.
+Building a Trello-inspired task management app from scratch. 
 
 **Tech Stack:** Next.js 14+ (App Router), TypeScript, Supabase, Tailwind CSS, shadcn/ui, dnd-kit, Zustand
 
