@@ -1,6 +1,6 @@
 # Task Orbit
 
-Task management application built with Next.js, Supabase, and Tailwind CSS. This project allows users to organize work using boards, lists, and cards with smooth drag-and-drop functionality.
+Task Orbit is a modern, collaborative task management platform designed to help teams organize ideas and projects. Inspired by Kanban principles, it features intuitive drag-and-drop boards, real-time updates, and a sleek user interface built with the latest web technologies.
 
 ## Features
 
